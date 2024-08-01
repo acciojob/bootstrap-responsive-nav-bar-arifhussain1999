@@ -1,1 +1,37 @@
 /*  your css code here. If applicable */
+/* Custom styles for the navbar */
+.navbar {
+  padding: 0.5rem 1rem;
+}
+
+.navbar-nav .nav-item {
+  margin: 0 0.5rem;
+}
+
+.navbar-toggler {
+  border-color: transparent;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3E%3Cpath stroke='currentColor' stroke-width='2' d='M5 7h20M5 15h20M5 23h20'/%3E%3C/svg%3E");
+}
+
+/* Custom styles for mobile view */
+@media (max-width: 992px) {
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .navbar-nav .nav-item {
+    margin: 0;
+  }
+
+  .form-inline {
+    margin-top: 1rem;
+  }
+}
+
+/* Ensure the dropdown menu items align properly on mobile view */
+.dropdown-menu {
+  text-align: left;
+}
